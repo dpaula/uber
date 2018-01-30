@@ -9,6 +9,7 @@ package lima.paula.calculos;
  */
 public class Depreciacao {
 	
+	//REVER OS VALORES PARA OUTROS VEÍCULOS
 	private static final double GASTO_REVISOES_2017 =  1900;
 	private static final double GASTO_PNEUS = 1550;
 	private static final double GASTO_LIMPEZA = 150;
