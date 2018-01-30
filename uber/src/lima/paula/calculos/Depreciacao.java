@@ -9,7 +9,7 @@ package lima.paula.calculos;
  */
 public class Depreciacao {
 	
-	//REVER OS VALORES PARA OUTROS VEÍCULOS
+	//REVER OS VALORES PARA OUTROS VEÃ�CULOS
 	private static final double GASTO_REVISOES_2017 =  1900;
 	private static final double GASTO_PNEUS = 1550;
 	private static final double GASTO_LIMPEZA = 150;
@@ -30,7 +30,10 @@ public class Depreciacao {
 
 	}
 
-	
+	/**
+	 * 
+	 * @return Valor do IPVA anual+ seguro obrigatório + licenciamento
+	 */
 	private static double custoIpvaSeguroLicenciamento() {
 		return (IPVA_ANO+SEGURO_OBRIGATORIO+LICENCIAMENTO)/KM_RODADO_ANO;
 	}
